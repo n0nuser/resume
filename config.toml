@@ -1,0 +1,169 @@
+# Page settings
+
+baseURL = "https://nonuser.es/resume"
+languageCode = "en"
+title = "Resume | Pablo González Rubio"
+#googleAnalytics = "UA-XXXXXXX-Y"
+
+[params]
+    author = "n0nuser"
+    description = "Pablo Jesús González Rubio's resume"
+
+    primaryColor = "#54B689"
+    textPrimaryColor = "#292929"
+
+    [params.footer]
+        copyright = "Pablo Jesús González Rubio"
+
+    [params.profile]
+        enable = true
+        name = "Pablo González Rubio"
+        tagline = "Computer Science Student"
+        avatar = "avatar.png"
+
+    [params.contact]
+        enable = true
+        location = "Salamanca ~ Spain"
+
+        [[params.contact.list]]
+        icon = "fas fa-phone-square"
+        url = "tel:689182380"
+        text = "689182380"
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:gonzrubio.pablo@gmail.com"
+        text = "gonzrubio.pablo@gmail.com"
+        [[params.contact.list]]
+        icon = "fas fa-globe"
+        url = "https://www.nonuser.es"
+        text = "www.nonuser.es"
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "Technical"
+        [[params.skills.list.items]]
+        details = "C · Python"
+        [[params.skills.list.items]]
+        details = "Linux Administration · Bash"
+        [[params.skills.list.items]]
+        details = "GoHugo · HTML5 · CSS"
+        [[params.skills.list.items]]
+        details = "Git · Github"
+
+        [[params.skills.list]]
+        title = "Professional"
+        [[params.skills.list.items]]
+        details = "Abstract Reasoning"
+        [[params.skills.list.items]]
+        details = "Team player"
+        [[params.skills.list.items]]
+        details = "Strong problem solver"
+
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "BSc Computer Science"
+        university = "University of Salamanca"
+        dates = "2018 - Currently"
+
+    [params.awards]
+        enable = true
+
+        [[params.awards.list]]
+        name = "Semifinalist"
+        body = "II National CyberLeague ~ Online"
+        date = "15 Dec. 2020"
+        [[params.awards.list]]
+        name = "Finalist"
+        body = "I National CyberLeague (National) ~ Aranjuez (Madrid)"
+        date = "1 Nov. 2019"
+        [[params.awards.list]]
+        name = "Finalist"
+        body = "I National CyberLeague ~ Aranjuez (Madrid)"
+        date = "1 Nov. 2019"
+        [[params.awards.list]]
+        name = "1º Classified"
+        body = "I National CyberLeague (Regional) ~ Salamanca"
+        date = "1 Nov. 2019"
+
+    [params.languages]
+        enable = true
+
+        [[params.languages.list]]
+        name = "Spanish"
+        level = "Native"
+        [[params.languages.list]]
+        name = "English"
+        level = "Professional (C1)"
+
+    [params.interests]
+        enable = true
+
+        [[params.interests.list]]
+        name = "Fishkeeping 🐟"
+        [[params.interests.list]]
+        name = "Chess ♟️"
+
+    [params.summary]
+        enable = true
+        text = "Cybersecurity, Red-Teaming and System Administration passionate. I love automatizing easy and complex tasks, specially the latter."
+
+    [params.experience]
+        enable = false
+
+        [[params.experience.list]]
+        title = "Senior Software Engineer"
+        dates = "2019 - Present"
+        company = "Google"
+        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede justo, fringilla vel. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis."
+        [[params.experience.list.items]]
+        details = "Lorem ipsum dolor sit amet, consectetuer."
+        [[params.experience.list.items]]
+        details = "Aenean commodo ligula eget dolor."
+        [[params.experience.list.items]]
+        details = "Etiam ultricies nisi vel augue."
+
+    [params.projects]
+        enable = false
+
+        [[params.projects.list]]
+        title = "Project Lorem Ipsum"
+        meta = "Open Source"
+        tagline = "You can use this section for your side projects. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+
+    [params.information]
+        enable = true
+
+        [[params.information.list]]
+        title = "Marks in university projects"
+        [[params.information.list.items]]
+        details = "9/10 - [Plotter](https://github.com/n0nuser/Graficadora-WPF) ~ C#"
+        [[params.information.list.items]]
+        details = "10/10 - [AI Agents server-client synchronization](https://github.com/n0nuser/jadeAkinator) ~ Java w/ JADE"
+        [[params.information.list.items]]
+        details = "10/10 - [Power Plant tasks simulation](https://github.com/n0nuser/Ada) ~ Ada"
+        [[params.information.list.items]]
+        details = "8/10 - [NNTP Server and Client](https://github.com/n0nuser/sockets) ~ C w/ Sockets"
+        [[params.information.list.items]]
+        details = "9.8/10 - [Linux processes synchronization](https://github.com/n0nuser/Batracios-Linux) ~ C"
+        [[params.information.list.items]]
+        details = "9/10 - [Spotify like app](https://github.com/n0nuser/MusicFy) ~ Java"
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "//github.com/n0nuser"
+        title = "n0nuser"
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "//linkedin.com/in/n0nuser"
+        title = "n0nuser"
+        [[params.social.list]]
+        icon = "fab fa-twitter-square"
+        url = "//twitter.com/n0nuser_"
+        title = "@n0nuser_"
