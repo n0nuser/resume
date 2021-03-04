@@ -1,6 +1,6 @@
 # Page settings
 
-baseURL = "https://nonuser.es/resume"
+baseURL = "https://resume.nonuser.es/"
 languageCode = "en"
 title = "Resume | Pablo González Rubio"
 #googleAnalytics = "UA-XXXXXXX-Y"
