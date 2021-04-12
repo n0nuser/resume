@@ -3,11 +3,18 @@
 baseURL = "https://resume.nonuser.es/"
 languageCode = "en"
 title = "Resume | Pablo González Rubio"
-#googleAnalytics = "UA-XXXXXXX-Y"
+
+[markup]
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+            unsafe = true
 
 [params]
     author = "n0nuser"
     description = "Pablo Jesús González Rubio's resume"
+
+    # Google Analytics
+    GA4 = "G-CNBKLZFMMN"
 
     primaryColor = "#54B689"
     textPrimaryColor = "#292929"
@@ -68,6 +75,7 @@ title = "Resume | Pablo González Rubio"
         degree = "BSc Computer Science"
         university = "University of Salamanca"
         dates = "2018 - Currently"
+        data = "Delegate in 2º and 3º year"
 
     [params.awards]
         enable = true
@@ -81,9 +89,9 @@ title = "Resume | Pablo González Rubio"
         body = "I National CyberLeague (National) ~ Aranjuez (Madrid)"
         date = "1 Nov. 2019"
         [[params.awards.list]]
-        name = "Finalist"
-        body = "I National CyberLeague ~ Aranjuez (Madrid)"
-        date = "1 Nov. 2019"
+        name = "Competitor"
+        body = "I Regional Cybersecurity Forum (Salamanca)"
+        date = "25 Sep. 2019"
         [[params.awards.list]]
         name = "1º Classified"
         body = "I National CyberLeague (Regional) ~ Salamanca"
@@ -103,13 +111,14 @@ title = "Resume | Pablo González Rubio"
         enable = true
 
         [[params.interests.list]]
-        name = "Fishkeeping 🐟"
+        name = "Arch Linux"
         [[params.interests.list]]
-        name = "Chess ♟️"
+        name = "Fishkeeping 🐟"
+        
 
     [params.summary]
         enable = true
-        text = "Cybersecurity, Red-Teaming and System Administration passionate. I love automatizing easy and complex tasks, specially the latter."
+        text = "Unix System Administration and Cybersecurity passionate.<br>I love automatizing easy and complex tasks, specially the latter."
 
     [params.experience]
         enable = false
@@ -127,12 +136,12 @@ title = "Resume | Pablo González Rubio"
         details = "Etiam ultricies nisi vel augue."
 
     [params.projects]
-        enable = false
+        enable = true
 
         [[params.projects.list]]
-        title = "Project Lorem Ipsum"
+        title = "RubberSpark"
         meta = "Open Source"
-        tagline = "You can use this section for your side projects. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+        tagline = "RubberSpark is a modular and light-weight framework that aims to collect Ducky Scripts and offer the possibility of modifying its parameters. Focused on Rubber Ducky and DigiSpark devices for Red Team engagements. More information on [Github](https://github.com/n0nuser/rubberspark)."
 
     [params.information]
         enable = true
